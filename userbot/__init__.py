@@ -212,4 +212,4 @@ SUDO_LIST = {}
 from userbot.helpers import *
 from userbot.helpers import functions as mafiadef
 from userbot.cmdhelp import CmdHelp
-Footer
+
