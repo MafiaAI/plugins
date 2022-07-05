@@ -28,7 +28,7 @@ pm_caption = "  __**🔥🔥𝐌𝐀𝐅𝐈𝐀 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋�
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
-    f"  👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『[{DEFAULTUSER}](tg://user?id={mafia})』**\n\n"
+    f"                       👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『[{DEFAULTUSER}](tg://user?id={mafia})』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣ `Telethon:` `{version.__version__}` \n"
