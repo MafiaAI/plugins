@@ -23,21 +23,19 @@ else:
 
 mafia = bot.uid
 
-MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/e97d640332ce5eadb3f89.mp4"
+MAFIA_IMG = Config.ALIVE_PIC or ""
 pm_caption = "  __**🔥🔥𝐌𝐀𝐅𝐈𝐀 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
-    f"  👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
+    f"  👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『[{DEFAULTUSER}](tg://user?id={mafia})』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣•➳➠ `Telethon:` `{version.__version__}` \n"
-pm_caption += f"┣•➳➠ `Version:` `{mafiaversion}`\n"
-pm_caption += f"┣•➳➠ `Sudo:` `{sudou}`\n"
-pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/mafiasupport)\n"
-pm_caption += f"┣•➳➠ `Creator:` [PANKAJ](https://t.me/pankaj10161)\n"
+pm_caption += f"┣ `Telethon:` `{version.__version__}` \n"
+pm_caption += f"┣ `Version:` `{mafiaversion}`\n"
+pm_caption += f"┣ `Sudo:` `{sudou}`\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/MafiaOS/Mafia) 🔹 [📜License📜](https://github.com/MafiaOS/Mafia/blob/main/LICENSE)"
+
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
